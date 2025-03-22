@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(15, 15, 15);
+    margin: 0; /* Resetear márgenes por defecto */
+    padding: 0; /* Resetear padding por defecto */
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+}
+
+.card {
+    display: flex; /* Usar Flexbox para alinear imagen y texto */
+    justify-content: space-between; /* Espacio entre imagen y texto */
+    width: 90%; /* Ancho del contenedor */
+    max-width: 900px; /* Ancho máximo */
+    margin: 50px auto; /* Centrar el contenedor en la pantalla */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: rgb(199, 226, 43);
+}
+
+
+.cardimg {
+    flex: 1; /* La imagen ocupa 1 parte del espacio disponible */
+    max-width: 50%; /* Ancho máximo de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.cardimg img {
+    width: 100%; /* La imagen ocupa el 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 20px;
+}
+
+.cardtext {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.cardtext p {
+    font-size: 20px;
+}
+
+.cardtext h2, .cardtext h3 {
+    margin-top: 25px; /* Ajusta este valor según lo que necesites */
+    padding-top: 0;
+}
+
+.cardtext h3 {
+    padding-bottom: 20px;
+}
+
+header {
+    padding: 10px;
+    background-color: rgba(75, 71, 71, 0.5); /* Fondo semitransparente */
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botones1, .botones2 {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(19, 19, 18);
+    background-color: rgb(137, 151, 54);
+    border: 2px solid  rgb(199, 226, 43);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.botones1:hover, .botones2:hover {
+    background-color:  rgb(199, 226, 43); /* Cambia el color al pasar el mouse */
+}
+
+h1 {
+    color:  rgb(199, 226, 43);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px; /* Margen superior */
+}
+
+.lineatitulo {
+    border: none;
+    height: 3px;
+    background-color:  rgb(199, 226, 43);
+    margin: 10px auto; /* Centrar la línea horizontalmente */
+    width: 100%; /* Ancho de la línea */
+}
+.imgreal {
+    display: flex; /* Usa flex en lugar de inline-flex */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente (opcional) */
+    gap: 10px; /* Espacio entre las imágenes */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+.lista{
+    padding-bottom: 40px;
+}

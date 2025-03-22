@@ -1,0 +1,92 @@
+
+header {
+    padding: 10px;
+    background-color: rgba(75, 71, 71, 0.5); /* Fondo semitransparente */
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.botones1, .botones2 {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(19, 19, 18);
+    background-color: rgb(137, 151, 54);
+    border: 2px solid  rgb(199, 226, 43);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.botones1:hover, .botones2:hover {
+    background-color:  rgb(199, 226, 43); /* Cambia el color al pasar el mouse */
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 0; /* Resetear márgenes por defecto */
+    padding: 0; /* Resetear padding por defecto */
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+}
+h1 {
+    color:  rgb(199, 226, 43);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px; /* Margen superior */
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    text-align: center; /* Centra las cajas dentro del contenedor */
+}
+
+.caja {
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    margin: 20px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que las imágenes no se salgan de la caja */
+}
+
+.caja img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la caja */
+    height: 100%; /* Asegura que la imagen ocupe toda la altura de la caja */
+    object-fit: cover; /* Ajusta la imagen para cubrir la caja sin distorsión */
+}
+h1 {
+    color:  rgb(199, 226, 43);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px; /* Margen superior */
+}
+
+.lineatitulo {
+    border: none;
+    height: 3px;
+    background-color:  rgb(199, 226, 43);
+    margin: 10px auto; /* Centrar la línea horizontalmente */
+    width: 100%; /* Ancho de la línea */
+}
+.realizados {
+    color: rgb(199, 226, 43);
+text-align: center;
+font-size: 25px;
+}
+.imgreal {
+    display: flex; /* Usa flex en lugar de inline-flex */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente (opcional) */
+    gap: 10px; /* Espacio entre las imágenes */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+

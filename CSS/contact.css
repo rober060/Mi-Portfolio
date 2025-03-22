@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(15, 15, 15);
+    margin: 0; /* Resetear márgenes por defecto */
+    padding: 0; /* Resetear padding por defecto */
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+    font-size: 18px; /* Tamaño de fuente base más grande */
+}
+
+header {
+    padding: 20px; /* Aumentar el padding */
+    background-color: rgba(75, 71, 71, 0.5); /* Fondo semitransparente */
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botones1, .botones2 {
+    font-weight: bold;
+    font-size: 1.2rem; /* Aumentar el tamaño de la fuente */
+    padding: 15px 30px; /* Aumentar el padding */
+    border-radius: 25px; /* Aumentar el radio del borde */
+    color: rgb(19, 19, 18);
+    background-color: rgb(137, 151, 54);
+    border: 3px solid rgb(199, 226, 43); /* Aumentar el grosor del borde */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.botones1:hover, .botones2:hover {
+    background-color: rgb(199, 226, 43); /* Cambia el color al pasar el mouse */
+}
+
+h1 {
+    color: rgb(199, 226, 43);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px; /* Aumentar el margen superior */
+    font-size: 2.5rem; /* Aumentar el tamaño de la fuente */
+}
+
+.lineatitulo {
+    border: none;
+    height: 4px; /* Aumentar el grosor de la línea */
+    background-color: rgb(199, 226, 43);
+    margin: 20px auto; /* Aumentar el margen */
+    width: 100%; /* Ancho de la línea */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+.card {
+    
+    background-color: #383535;
+    padding: 40px; /* Aumentar el padding */
+    border-radius: 20px; /* Aumentar el radio del borde */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Aumentar la sombra */
+    text-align: center;
+    max-width: 800px; /* Aumentar el ancho máximo */
+    width: 100%;
+    border: 4px solid rgb(199, 226, 43);
+}
+
+.center-image {
+    width: 150px; /* Aumentar el tamaño de la imagen */
+    height: 150px;
+    border-radius: 5%; /* Opcional: para una imagen redonda */
+    margin-bottom: 30px; /* Aumentar el margen inferior */
+}
+
+.frase {
+    font-size: 2rem; /* Aumentar el tamaño de la fuente */
+    color:  rgb(199, 226, 43); /* Cambiar el color para que sea visible en el fondo oscuro */
+    margin: 15px 0; /* Aumentar el margen */
+}
+
+.social-links {
+    margin: 30px 0; /* Aumentar el margen */
+}
+
+.social-links a {
+    margin: 0 15px; /* Aumentar el margen */
+    display: inline-block;
+}
+
+.social-links img {
+    width: 90px; /* Aumentar el tamaño de las imágenes */
+    height: 90px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+.contact-info {
+    color:  rgb(199, 226, 43);
+    list-style: none;
+    padding: 0;
+    margin: 30px 0; /* Aumentar el margen */
+}
+
+.contact-info li {
+    font-size: 1.9rem; /* Aumentar el tamaño de la fuente */
+    margin: 15px 0; /* Aumentar el margen */
+}
+
+.contact-info a {
+    color:  rgb(199, 226, 43);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
