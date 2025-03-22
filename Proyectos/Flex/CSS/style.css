@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+h1{
+    background-color:#80b3ec ;
+    text-align: center;
+    padding: 25px;
+    margin: 0px;
+}
+#mascotas{
+    max-width: 100%;
+   
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+section{
+    text-align: center;
+}
+section p{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#titulo{ 
+    color: #80b3ec;
+    font-size: 40px;
+}
+
+article{
+    background-color: #eff8ff;
+    
+    }
+    article p {
+        padding-left: 25px;
+    }
+
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+    padding: 20px;
+}
+
+#photos img {
+    
+    
+    border-radius: 8px; 
+    width: calc(33.3% - 10px);
+    align-items: baseline;
+
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: baseline;
+
+}
+#galeria{
+    color: #80b3ec;
+}
+
+aside{
+    background-color: aliceblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 15px;
+
+
+}
+footer{
+    background-color:#80b3ec ;
+    text-align: center;
+    padding: 18px;
+    margin: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 20px;
+   
+}

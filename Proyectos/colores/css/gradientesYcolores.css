@@ -1,0 +1,84 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    background:linear-gradient(to bottom, #90e2ec,white);
+  
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 1000px;
+ 
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    margin: 20px 0px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+h1{
+    padding: 20px;
+}
+
+.caja1{
+   background-color: #ed2f31;
+
+}
+
+.caja2{
+   background-color:  #56b679;
+
+}
+
+.caja3{
+    background:linear-gradient(to left , #ff5a21, #fc9802);
+
+}
+
+.caja4{
+  background: radial-gradient(circle, #011c84 20%, #00e5ff 90%);
+
+}
+
+.caja5{
+
+    background:linear-gradient(to right , #54fbb8,#00cdfe ,#0417ff);
+
+}
+
+.caja6{
+
+    background:linear-gradient(to right bottom,  #ee3c99, #288fec);
+
+}
+
+.caja7{
+
+    background: radial-gradient(circle,  #faf0d7 30%,#f7c56e ,#30b3de 90%);
+
+}
+
+.caja8{
+
+    background: radial-gradient(circle at bottom left,  #ca1d17 5%, #fde73a ,#30b3de 95%);
+
+}
+
+.caja9{
+    background: conic-gradient(red, white, black, red, white, black);
+}
